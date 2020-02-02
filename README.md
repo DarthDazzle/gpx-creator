@@ -2,7 +2,7 @@ Fork of https://github.com/chalmers-revere/working-with-rec-files
 
 # Usage Python
 - Change working directory to where the .rec files are
-- Run `python3 rec_splitter.py -r FILENAME/DIRECTORY_NAME -s START_TIME -i TIME_INTERVAL`
+- Run `python3 gpx_creator.py -r FILENAME/DIRECTORY_NAME`
 
 # Usage C++
 ## Compilation
@@ -11,4 +11,4 @@ Fork of https://github.com/chalmers-revere/working-with-rec-files
 
 ## File splitting
 - Change working directory to where the .rec files are
-- Run `path/to/binary/rec_splitter FILENAME [START_TIME TIME INTERVAL]` 
+- Run `path/to/binary/rec_splitter FILENAME` 

@@ -1,7 +1,7 @@
-all: rec_splitter
+all: gpx_creator
 
-rec_splitter: example.hpp opendlv-standard-message-set.hpp rec_splitter.cpp
-	g++ -std=c++14 -o rec_splitter -pthread -I. -g rec_splitter.cpp
+gpx_creator: example.hpp opendlv-standard-message-set.hpp gpx_creator.cpp
+	g++ -std=c++14 -o gpx_creator -pthread -I. -g gpx_creator.cpp
 
 example.hpp: example.odvd cluon-msc
 	./cluon-msc --cpp --out=example.hpp example.odvd
